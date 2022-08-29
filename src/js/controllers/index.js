@@ -1,0 +1,1 @@
+export { mostrarCard } from './cinema';

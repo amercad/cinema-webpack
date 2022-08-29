@@ -1,2 +1,7 @@
 import '../assets/css/normalize.css';
-import '../assets/css/styles.css';
+
+import { mostrarCard } from './controllers';
+
+const card = document.querySelector('.tarjeta');
+
+card.innerHTML = mostrarCard();
